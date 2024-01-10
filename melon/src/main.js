@@ -1,6 +1,3 @@
-import './assets/melonjs.module.js'
-// import './assets/resource.js'
-
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
