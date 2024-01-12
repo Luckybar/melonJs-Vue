@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "babylonjs": "^6.38.0",
     "melonjs": "^15.15.0",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"

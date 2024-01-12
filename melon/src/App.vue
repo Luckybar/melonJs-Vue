@@ -5,8 +5,8 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div id="app">
     <p class="nav-bar">
-      <router-link class="nav-item" to="/">Go to Home</router-link>
-      <router-link class="nav-item" to="/about">Go to About</router-link>
+      <router-link class="nav-item" to="/">MelonJs</router-link>
+      <router-link class="nav-item" to="/babylon">BabylonJs</router-link>
     </p>
     <div class="container">
       <router-view />

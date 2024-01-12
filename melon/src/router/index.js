@@ -1,19 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
+import MelonView from '../views/MelonView.vue'
+import BabylonView from '../views/BabylonView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'Melon',
+      component: MelonView
     },
     {
-      path: '/about',
-      name: 'about',
-      component: AboutView
+      path: '/babylon',
+      name: 'Babylon',
+      component: BabylonView
     }
   ]
 })
